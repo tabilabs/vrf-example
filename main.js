@@ -8,7 +8,7 @@ const main = async () => {
     // VRFConsumer合约地址
     const vrfConsumerAddr = "0xb484B5F803F912C074Ac204dC66114F06aBc2100"
     // 私钥
-    const privateKey = 'bfe1710922959f43e7d03e0e79a84c03f342af519f26dbf6d34edd0313295d49' //YOUR_PRIVATE_KEY
+    const privateKey = 'YOUR_PRIVATE_KEY'
 
     const provider = new ethers.JsonRpcProvider(tabiRpc);
 
